@@ -21,13 +21,13 @@ environment variables ::
     export FLASK_APP=/path/to/autoapp.py
     export FLASK_DEBUG=1
 
-For psycopy2::
+For psycopg2::
 
-    sudo apt install libpq-dev python3-dev  # for pycopg2
+    sudo apt install libpq-dev python3-dev
 
 For JWT::
 
-    sudo apt install libpq-dev python3-dev  # for pycopg2
+    sudo apt install libpq-dev python3-dev
     
 Then run the following commands to bootstrap your environment ::
 
