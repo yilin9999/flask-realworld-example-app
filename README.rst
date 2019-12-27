@@ -21,11 +21,19 @@ environment variables ::
     export FLASK_APP=/path/to/autoapp.py
     export FLASK_DEBUG=1
 
+For psycopy2::
+
+    sudo apt install libpq-dev python3-dev  # for pycopg2
+
+For JWT::
+
+    sudo apt install libpq-dev python3-dev  # for pycopg2
+    
 Then run the following commands to bootstrap your environment ::
 
     git clone https://github.com/gothinkster/flask-realworld-example-app.git
-    cd flask-realworld-example-app
-    pip install -r requirements/dev.txt
+    cd flask-realworld-example-app    
+    pip install -r requirements/dev.txt --user
 
 
 Run the following commands to create your app's
