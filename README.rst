@@ -27,7 +27,7 @@ For psycopg2::
 
 For JWT::
 
-    sudo apt install libpq-dev python3-dev
+    sudo apt install PyJWT==1.6.4
     
 Then run the following commands to bootstrap your environment ::
 
